@@ -71,7 +71,7 @@ FilterResults <- setRefClass(
         \\item{\\code{return.diff} Logical value indicating whether to return the cumulated variable,
         \\eqn{Y}, or the incidence of it,
         \\eqn{y} (i.e., the first difference of the cumulated variable). Default is
-        \\code{FALSE}.}
+        \\code{FALSE}, which returns the cumulated variable \\eqn{Y}.}
       }}
       \\subsection{Return Value}{\\code{xts} object containing the point
       forecasts and upper and lower bounds of
