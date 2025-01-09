@@ -49,7 +49,9 @@ Imports:
     scales,
     dplyr,
     tidyr,
-    methods
+    methods,
+    ForecastComb,
+    purrr
 BugReports: https://github.com/Craig-PT/tsgc/issues
 Depends:
     R (>= 2.10)
